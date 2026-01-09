@@ -237,3 +237,65 @@ header {
 }
 
 
+/* early access section  */
+
+
+
+.early-access-container {
+    margin: 120px;
+    padding: 80px 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    background-color: rgba(247, 246, 242, 1);
+}
+
+
+.eas-heading {
+    font-size: 50px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 16px;
+    text-transform: capitalize;
+}
+
+.eas-description{
+    font-size: 18px;
+    font-weight: 400;
+    color: rgba(98, 115, 130, 1);
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+.eas-button {
+    padding: 15px;
+    border-radius: 5px;
+    background-color: rgba(70,145,101,1);
+    border: 1px solid transparent;
+    color: white;
+    margin-bottom: 16px;
+}
+
+.eas-button:hover {
+    color: rgba(70,145,101,1);
+    background-color: white;
+    border: 1px solid rgba(70,145,101,1);
+    
+}
+
+
+.eas-btn-caption {
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+    color: rgba(98, 115, 130, 1);
+}
+
+.eas-dot { 
+    color: rgba(98, 115, 130, 1);
+    font-weight: 900;
+}
+    
+
