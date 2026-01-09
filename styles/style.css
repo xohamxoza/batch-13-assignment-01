@@ -328,6 +328,7 @@ header {
 }
 
 .eas-dot { 
+    display: inline-block;
     color: rgba(98, 115, 130, 1);
     font-weight: 900;
 }
