@@ -297,5 +297,52 @@ header {
     color: rgba(98, 115, 130, 1);
     font-weight: 900;
 }
-    
 
+
+/* footer section  */
+
+footer {
+    background-color: rgba(0, 25, 49, 1);
+    padding: 120px;
+}
+.footer-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 120px;
+    background-color: rgba(0, 25, 49, 1);
+}
+    
+.socials {
+    text-align: center;
+    font-weight: 500;
+    color: white;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.social-icon {
+    background-color: white;
+    border-radius: 100px;
+    padding: 10px;
+    height: 30px;
+    width: 30px;
+    margin: 0px 5px;
+}
+
+.social-icon:hover {
+    background-color: blue;
+}
+
+hr {
+    border: 1px solid lightslategrey;
+}
+
+.copyright {
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 35px;
+}
