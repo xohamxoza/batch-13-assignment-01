@@ -124,3 +124,61 @@ header {
     font-weight: 600;
 }
 
+
+/* Note section */
+
+.note {
+    margin: 120px auto;
+}
+.note-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.note-head {
+    font-size: 50px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.note-caption {
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+    color: rgba(98, 115, 130, 1);
+    margin-top: 16px;
+    margin-bottom: 40px;
+}
+
+.notes {
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+    /* margin: 0 auto; */
+}
+
+.note-content {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    max-width: 250px;
+    max-height: 350px;
+}
+
+.note-content img {
+    background: rgba(249, 85, 85, 1);
+    padding: 15px;
+    border-radius: 100px;
+}
