@@ -79,6 +79,11 @@ header {
     margin-bottom: 16px;
     color: rgba(70,145,101,1);
 }
+.promo:hover {
+    background-color: transparent;
+    border: 1px solid rgba(70,145,101,1);
+    color: white;
+}
 
 
 .heading {
@@ -114,6 +119,13 @@ header {
     font-weight: 600;
 }
 
+.btn-1:hover {
+    color: rgba(70,145,101,1);
+    background-color: white;
+    border: 1px solid rgba(70,145,101,1);
+    
+}
+
 .btn-2 {
     padding: 16px 24px;
     background-color: transparent;
@@ -122,6 +134,12 @@ header {
     border-radius: 5px;
     font-size: 18px;
     font-weight: 600;
+}
+
+.btn-2:hover {
+    color: rgba(70,145,101,1);
+    border: 1px solid rgba(70,145,101,1);
+    
 }
 
 
