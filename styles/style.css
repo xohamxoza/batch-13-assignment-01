@@ -182,3 +182,58 @@ header {
     padding: 15px;
     border-radius: 100px;
 }
+
+
+
+/* second banner section  */
+
+.second-brain {
+    margin: 120px;
+    /* border: 5px solid black; */
+}
+.second-brain-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    /* justify-content: flex-start; */
+    align-items: center;   
+    gap: 60px; 
+    
+}
+
+.sol-caption {
+    font-size: 15px;
+    font-weight: 500;
+    color: rgba(70, 145, 101, 1);
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.solution-heading {
+    font-size: 50px;
+    font-weight: 700;
+    text-align: left;
+    color: rgba(0, 25, 49, 1);
+    margin-bottom: 10px;
+}
+
+.sol-description {
+    font-size: 15px;
+    font-weight: 400;
+    color: rgba(98, 115, 130, 1);
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.solution-section ul {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    list-style: none;
+    font-size: 15px;
+    color: rgba(0, 25, 49, 1);
+    font-weight: 500;
+
+}
+
+
